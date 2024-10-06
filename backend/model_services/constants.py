@@ -1,3 +1,5 @@
+from enum import Enum
+
 CIFAR_CLASSES = [
     "airplanes",
     "cars",
@@ -22,3 +24,9 @@ FASHION_MNIST_CLASSES = [
     "Bag",
     "Ankle boot",
 ]
+MNIST_CLASSES = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+class ResponseMessage(Enum):
+    SUCCESSFULLY_PROCESSED_REQUEST = "Successfully processed request"
+    ERROR_PROCESSING_REQUEST = "Error processing request"

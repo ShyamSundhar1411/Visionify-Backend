@@ -22,6 +22,13 @@ flake8 = "^7.1.1"
 black = "^24.8.0"
 isort = "^5.13.2"
 
+[tool.flake8]
+max-line-length = 88
+max-complexity = 12
+ignore = ["E402","E501","W503","D100","C901","B008"]
+exclude = "__init__.py"
+
+
 [tool.pylint.MESSAGE_CONTROL]
 disable = """
     too-many-locals,
@@ -63,8 +70,9 @@ multi_line_output = 3
 line_length = 88
 default_section = "THIRDPARTY"
 known_first_party = []
-known_third_party = ["boto3", "botocore", "dotenv", "fastapi", "filetype", "httpx", "imageio", "jwt", "pydantic", "pydantic_settings"]
-
+known_third_party = ["PIL", "fastapi", "numpy", "pydantic_settings", "tensorflow"]
+[tool.black]
+line-length = 88
 [tool.bandit]
 exclude_dirs = ["tests"]
 tests = ["B201", "B301"]
@@ -86,6 +94,12 @@ plugins = [
 ]
 
 [tool.yapf]
+align_closing_bracket_with_visual_indent = true
+based_on_style = "google"
+coalesce_brackets = true
+column_limit = 119
+dedent_closing_brackets = true
+
 
 [build-system]
 requires = ["poetry-core"]
