@@ -3,7 +3,7 @@ anyio==4.6.0 ; python_version >= "3.9" and python_version < "3.12"
 astroid==3.3.5 ; python_version >= "3.9" and python_version < "3.12"
 bandit==1.7.10 ; python_version >= "3.9" and python_version < "3.12"
 black==24.8.0 ; python_version >= "3.9" and python_version < "3.12"
-certifi==2024.8.30 ; python_version >= "3.9" and python_version < "3.12"
+certifi==2025.1.31 ; python_version >= "3.9" and python_version < "3.12"
 cfgv==3.4.0 ; python_version >= "3.9" and python_version < "3.12"
 click==8.1.7 ; python_version >= "3.9" and python_version < "3.12"
 colorama==0.4.6 ; python_version >= "3.9" and python_version < "3.12" and (sys_platform == "win32" or platform_system == "Windows")
