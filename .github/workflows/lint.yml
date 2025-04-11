@@ -37,7 +37,7 @@ jobs:
         run: pipx install poetry
 
       - name: Install Dependencies
-        run: poetry install
+        run: poetry install --no-root
 
       - name: Install Linters
         run: |
