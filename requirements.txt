@@ -49,7 +49,7 @@ pydantic-extra-types==2.10.3 ; python_version >= "3.9" and python_version < "3.1
 pydantic-settings==2.5.2 ; python_version >= "3.9" and python_version < "3.12"
 pydantic==2.9.2 ; python_version >= "3.9" and python_version < "3.12"
 pyflakes==3.2.0 ; python_version >= "3.9" and python_version < "3.12"
-pygments==2.18.0 ; python_version >= "3.9" and python_version < "3.12"
+pygments==2.19.1 ; python_version >= "3.9" and python_version < "3.12"
 pylint==3.3.1 ; python_version >= "3.9" and python_version < "3.12"
 python-dotenv==1.0.1 ; python_version >= "3.9" and python_version < "3.12"
 python-multipart==0.0.6 ; python_version >= "3.9" and python_version < "3.12"
