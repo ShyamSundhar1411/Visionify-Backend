@@ -1,5 +1,5 @@
 annotated-types==0.7.0 ; python_version >= "3.9" and python_version < "3.12"
-anyio==4.6.0 ; python_version >= "3.9" and python_version < "3.12"
+anyio==4.9.0 ; python_version >= "3.9" and python_version < "3.12"
 astroid==3.3.10 ; python_version >= "3.9" and python_version < "3.12"
 bandit==1.7.10 ; python_version >= "3.9" and python_version < "3.12"
 black==24.8.0 ; python_version >= "3.9" and python_version < "3.12"
